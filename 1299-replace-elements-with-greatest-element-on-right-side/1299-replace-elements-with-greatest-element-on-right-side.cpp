@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
-        vector<int> ans;
+       vector<int> ans;
         int n = arr.size();
         ans.push_back(-1);
         int RightLargest = arr[n-1];
@@ -19,5 +19,6 @@ public:
         }
         reverse(ans.begin(),ans.end());
         return ans;
-    }
+    } 
+    
 };
